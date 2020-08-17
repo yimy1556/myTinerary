@@ -1,5 +1,5 @@
 import React from 'react';
-import SwipeableTextMobileStepper from './Car'
+import SwipeableTextMobileStepper from './Carrusel'
 import Grid from '@material-ui/core/Grid';
 import Sigui from '../img/multimedia.png'
 import '../styles/style.css'

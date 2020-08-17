@@ -6,6 +6,43 @@
     background-image: linear-gradient( 109.6deg,  rgba(121,203,202,1) 11.2%, rgba(119,161,211,1) 91.1% );
 }
 
+.footerStyle{
+    padding:1.5vw 0vw;
+    background-color:black;
+}
+
+.logoStyle{
+    width:11vh;
+    height: 7.5vh; 
+    margin: 0vw;
+}
+.redesStyle{
+    width : 4vh;
+    height : 4vh; 
+    margin : 0vw;
+}
+
+.fondoStyle{
+    background-image : url('../img/fondo.png');
+    background-position-y : 60%;
+    background-position-y : 50%;
+}
+
+.logoFooterStyle{
+    width : 35vh;
+    height: 15vh;
+    margin:0vw
+}
+
+h4{
+    font-size:3vh;
+    font-family: Orbitron, sans-serif;
+    text-align:center; 
+    background-color:rgba(181, 195, 241, 0.664);
+    padding:'1vw';
+}
+
+
 body {
     background-image: url();
   }
