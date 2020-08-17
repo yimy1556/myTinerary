@@ -7,38 +7,36 @@ import CardMedia from "@material-ui/core/CardMedia";
 import Typography from "@material-ui/core/Typography";
 
 const useStyles = makeStyles({
-  root: {
-    maxWidth: '25vw',
-  }
+    root: {
+		maxWidth: '100%',
+  	}
 });
 
 export default function ImgCard(prop) {
-  const classes = useStyles();
+  	const classes = useStyles();
 
-  return (
-    <Card
-      className={classes.root}
-    >
-      <CardActionArea>
-        <CardMedia
-          component="img"
-          alt="Contemplative Reptile"
-          height="240"
-          image= {prop.dato.img}
-          title="Contemplative Reptile"
-        />
-        <CardContent
-        >
-          <Typography
-            gutterBottom
-            variant="p"
-            component="p"
-            style={{ textAlign: "center" }}
-          >
-            {prop.dato.nameImg}
-          </Typography>
-        </CardContent>
-      </CardActionArea>
-    </Card>
-  );
+  	return (
+    	<Card className={classes.root}>
+    	  	<CardActionArea>
+    	  	  	<CardMedia
+    	  	  	  	component="img"
+    	  	  	  	alt="Contemplative Reptile"
+    	  	  	  	height="250vw"
+    	  	  	  	image= {prop.dato.img}
+					title="Contemplative Reptile"
+						  
+    	  	  	/>
+    	  	  	<CardContent>
+    	  	    	<Typography
+    	  	      		gutterBottom
+    	  	      		variant="p"
+    	  	      		component="p"
+    	  	      		style={{ textAlign: "center" , fontSize:'1vh'}}
+    	  	    	>
+    	  	      		{prop.dato.nameImg}
+    	  	    	</Typography>
+    	  	  	</CardContent>
+    	  	</CardActionArea>
+    	</Card>
+  	);
 }

@@ -6,7 +6,7 @@ export default function CardMayor(props) {
     return (
         <Grid container spacing={0}>
             {
-                props.lista.map(img => (<Grid item xs={6} ><ImgCard dato={img}/></Grid>))
+                props.lista.map((img,index) => (<Grid key={index} item xs={12} lg={3} sm={6}><ImgCard dato={img}/></Grid>))
             }
         </Grid>
     )

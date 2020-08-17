@@ -1,27 +1,31 @@
 import React from 'react';
 import SwipeableTextMobileStepper from './Car'
 import Grid from '@material-ui/core/Grid';
-import Logo from '../img/tinerary.png'
 import Sigui from '../img/multimedia.png'
 import '../styles/style.css'
 import { Button } from '@material-ui/core';
-
-
-
-function Section(){
-    return(
-        <>
-            <Grid container spacing={0} justify="center" >
-                <img src={Logo} item xs={0} style={{width:'15vw',height: '10vw'}} ></img>            
-            </Grid>
-            <Grid container spacing={0} justify="center" >
-                <Button><img src={Sigui} item xs={0} style={{width:'5vw', margin:'1vw'}} ></img>            </Button>
-            </Grid>
+import Info from './info.json'
+class Section extends React.Component{
+    state = {
+        img:{Info}
+    }
+         
+    render(){
+        return(
+            <>
             <Grid container spacing={0} justify="center">
-                <SwipeableTextMobileStepper item xs={1}/>            
+                <Button><img src={Sigui} item xs={0} style={{width:'4vh', margin:'1vw'}} ></img></Button>
             </Grid>
-        </>     
-    )
+            <Grid container  maxWidth="sm" spacing={0} justify="center" xs={12} >
+                <Grid container spacing={0} justify="center" xs={6} lg={11} >
+                    <SwipeableTextMobileStepper viajes={this.state.img.Info}/>            
+                </Grid>
+            </Grid>
+            
+        </>             
+        )
+    }
+
 }
 
 export default Section

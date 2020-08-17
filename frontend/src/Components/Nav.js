@@ -23,12 +23,15 @@ export default function ButtonAppBar() {
 
     return (
         <div className={classes.root}>
-            <AppBar position="static" style={{display:"flex", justifyContent:"space-around"}}>
-                <Toolbar style={{backgroundColor:'rgb(239, 126, 126)',display:"flex", justifyContent:"space-around"}}>
+            <AppBar position="static" style={{backgroundColor:'rgba(82, 108, 223, 0.5)', boxShadow: 'none'}}>
+                <Toolbar style={{display:"flex", justifyContent:"space-around"}}>
                     <IconButton edge="start" className={classes.menuButton} color="inherit" aria-label="menu">
                         <CustomizedMenus/>
                     </IconButton>
-                    <AccountCircleRoundedIcon fontSize="large"/>
+                    <IconButton edge="start" className={classes.menuButton} color="inherit" aria-label="menu">
+                        <AccountCircleRoundedIcon fontSize="large"/>
+                    </IconButton>
+                
                 </Toolbar>
             </AppBar>
         </div>
