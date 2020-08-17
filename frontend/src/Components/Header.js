@@ -1,13 +1,13 @@
 import React from "react";
 import Grid from "@material-ui/core/Grid";
-import CustomizedMenus from './Nav'
+import MenuAppBar from './Nav'
 import fondo from '../img/fondo.png'
 import Logo from '../img/tinerary1.png'
 
 export default function Header() {
     return (
-        <header style={{backgroundImage:`url(${fondo})`,backgroundPositionY:'60%',backgroundPositionX:'50%', }}>
-            <CustomizedMenus/>
+        <header style={{backgroundImage:`url(${fondo})`,backgroundPositionY:'60%',backgroundPositionX:'50%'}}>
+            <MenuAppBar/>
             <Grid container spacing={0} justify="center">
                 <img src={Logo} item xs={12} style={{width:'35vh',height: '15vh', margin:'0vw'}}></img>
             </Grid>

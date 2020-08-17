@@ -2,6 +2,9 @@
     background-color: rgba(255, 255, 255, 0);
 }
 
+.appStyle{
+    background-image: linear-gradient( 109.6deg,  rgba(121,203,202,1) 11.2%, rgba(119,161,211,1) 91.1% );
+}
 
 body {
     background-image: url();

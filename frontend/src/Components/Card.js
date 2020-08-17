@@ -21,17 +21,16 @@ export default function ImgCard(prop) {
     	  	  	<CardMedia
     	  	  	  	component="img"
     	  	  	  	alt="Contemplative Reptile"
-    	  	  	  	height="250vw"
+    	  	  	  	height="300vw"
     	  	  	  	image= {prop.dato.img}
 					title="Contemplative Reptile"
-						  
     	  	  	/>
     	  	  	<CardContent>
     	  	    	<Typography
     	  	      		gutterBottom
     	  	      		variant="p"
     	  	      		component="p"
-    	  	      		style={{ textAlign: "center" , fontSize:'1vh'}}
+    	  	      		style={{ textAlign: "center" , fontSize:'2vh'}}
     	  	    	>
     	  	      		{prop.dato.nameImg}
     	  	    	</Typography>
