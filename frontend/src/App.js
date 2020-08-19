@@ -1,10 +1,15 @@
 import React from 'react'
-import Home from './Pages/Home'
-
-function App() {
+import RouterInterno from './Router'
+import Footer from './Components/Footer'
+import Header from './Components/Header'
+import { BrowserRouter } from 'react-router-dom'
+function App(){
     return (
-        <Home/>
-    )
+        <BrowserRouter>
+            <Header/>
+            <RouterInterno/>
+            <Footer/>    
+        </BrowserRouter>
+        )
 }
-
 export default App;
