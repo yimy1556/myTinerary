@@ -1,4 +1,4 @@
-import mongoose from 'mongoose' 
+const mongoose = require('mongoose')
 
 const activitySchema = new mongoose.Schema({
     idItinerary: {type: mongoose.Schema.ObjectId, ref: 'itinerary' , required: true},
@@ -6,4 +6,4 @@ const activitySchema = new mongoose.Schema({
     nameActivity : {type:String, required:true}
 })
 
-export default activitySchema
+module.exports = activitySchema
