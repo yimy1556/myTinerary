@@ -6,10 +6,58 @@
     background-image: linear-gradient( 109.6deg,  rgba(121,203,202,1) 11.2%, rgba(119,161,211,1) 91.1% );
 }
 
+.nav2{
+    background-image: url('../img/fondo.png');
+    opacity: 0.8;
+    background-size: 90em;
+    background-repeat: no-repeat;
+    background-position-y: 60%;
+    background-position-x: 50%;
+}
 
 .footerStyle{
     padding:1.5vw 0vw;
     background-color:black;
+}
+
+.styleBackground{
+    background-image: url('../img/s.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+}
+
+.noItineraryStyle{
+    background-image: url('../img/s.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    border-radius: 40px;
+    padding: 2vh 2vw;
+    margin: 3vh 0vw;
+}
+
+.fondoCity{
+    text-align: center; 
+    font-size: 1.5em;
+    background-image: url('../img/s.jpg');
+    background-size: 20em;
+    background-position-y: 50%;
+}
+
+.styleImg{
+    width: 10em; 
+    height: 5em;
+    position: absolute; 
+    left : 43vw
+
+}
+
+
+@media (max-width: 500px) {
+  .styleImg {
+    left: 32vw;
+  }
 }
 
 .errorStyle{
@@ -22,38 +70,62 @@
 }
 
 .logoStyle{
-    width:11vh;
-    height: 7.5vh; 
+    width:11em;
+    height: 4em; 
     margin: 0vw;
 }
+
+.userStyle{
+    border-radius: 50px;
+    width: 5em;
+    align-self : center;
+}
+
+.cartYimy{
+    border-style: solid;
+    border-radius: 50px;
+    margin: 1vw 0vw;
+}
+
+.prueba {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.yimy{
+    display: flex;
+    justify-content: space-between;
+}
+
+.styleBill{
+    width: 2em;
+    height: 2em;
+}
+
 .redesStyle{
-    width : 4vh;
-    height : 4vh; 
+    width : 2.5em;
+    height : 2.5em; 
     margin : 0vw;
 }
 
 .fondoStyle{
     background-image : url('../img/fondo.png');
     background-position-y : 60%;
-    background-position-y : 50%;
+    background-position-x : 50%;
 }
 
 .logoFooterStyle{
-    width : 35vh;
-    height: 15vh;
+    width : 25em;
+    height: 12em;
     margin:0vw
 }
 
 h4{
-    font-size:3vh;
+    font-size:1.5em;
     font-family: Orbitron, sans-serif;
     text-align:center; 
     background-color:rgba(181, 195, 241, 0.664);
-    padding:'1vw';
+    padding:'0vw';
+    margin: 0em;
 }
-
-
-body {
-    background-image: url();
-  }
-

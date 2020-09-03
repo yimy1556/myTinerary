@@ -8,8 +8,6 @@ import SwipeableViews from 'react-swipeable-views';
 import { autoPlay } from 'react-swipeable-views-utils';
 import CardMayor from './CardMayor'
 
-
-
 const AutoPlaySwipeableViews = autoPlay(SwipeableViews);
 
 const useStyles = makeStyles((theme) => ({
@@ -60,11 +58,13 @@ function SwipeableTextMobileStepper(props) {
                 onChangeIndex={handleStepChange}
                 enableMouseEvents
             >
-                {props.viajes.map((step, index) => (
-                    <div key={step.nameImg}>
-                    {Math.abs(activeStep - index) <= 2 ? <CardMayor lista ={step}/>: null}
-                    </div>
-                ))}
+                {props.viajes.map((step, index) => {
+                    return(
+                        <div key={index}>
+                            {Math.abs(activeStep - index) <= 2 ? <CardMayor  key={index} lista ={step}/>: null}
+                        </div>
+                    )
+                })}
             </AutoPlaySwipeableViews>
             <MobileStepper
                 steps={maxSteps}
@@ -85,7 +85,7 @@ function SwipeableTextMobileStepper(props) {
                 }
             />
         </div>
-    );
+    )
 }
 
 export default SwipeableTextMobileStepper;

@@ -1,56 +1,56 @@
 [
     [
         {
-            "nameImg": "Argentina",
-            "img": "https://avia.lt/images/cities/bg/BUE.jpg"
+            "nameCity": "Argentina",
+            "urlCity": "https://avia.lt/images/cities/bg/BUE.jpg"
         },
         {
-            "nameImg": "San Francisco",
-            "img": "https://images.unsplash.com/photo-1537944434965-cf4679d1a598?auto=format&fit=crop&w=400&h=250&q=60"
+            "nameCity": "San Francisco",
+            "urlCity": "https://images.unsplash.com/photo-1537944434965-cf4679d1a598?auto=format&fit=crop&w=400&h=250&q=60"
         },
         {
-            "nameImg": "Indonesia",
-            "img": "https://images.unsplash.com/photo-1537996194471-e657df975ab4?auto=format&fit=crop&w=400&h=250&q=80"
+            "nameCity": "Indonesia",
+            "urlCity": "https://images.unsplash.com/photo-1537996194471-e657df975ab4?auto=format&fit=crop&w=400&h=250&q=80"
         },
         {
-            "nameImg": "London",
-            "img": "https://www.monde-du-voyage.com/royaume-uni/week-end-londres-promo.jpg"
+            "nameCity": "London",
+            "urlCity": "https://www.monde-du-voyage.com/royaume-uni/week-end-londres-promo.jpg"
         }    
     ],
     [
         {
-            "nameImg": "New York",
-            "img": "https://i.ytimg.com/vi/2KTKgR11YmI/maxresdefault.jpg"
+            "nameCity": "New York",
+            "urlCity": "https://i.ytimg.com/vi/2KTKgR11YmI/maxresdefault.jpg"
         },
         {
-            "nameImg": "France",
-            "img":"https://i.ytimg.com/vi/dHOQV-ZGAVw/maxresdefault.jpg"
+            "nameCity": "France",
+            "urlCity":"https://i.ytimg.com/vi/dHOQV-ZGAVw/maxresdefault.jpg"
         },
         {
-            "nameImg": "México",
-            "img":"https://media.metrolatam.com/2018/01/10/chichenitza1218025-bb75a7b3fc1be77351cd17825b913b3d-1200x800.jpg"
+            "nameCity": "México",
+            "urlCity":"https://media.metrolatam.com/2018/01/10/chichenitza1218025-bb75a7b3fc1be77351cd17825b913b3d-1200x800.jpg"
         },
         {
-            "nameImg": "Rusia",
-            "img":"http://3.bp.blogspot.com/-dwKymwDyErU/U2wCaMnWSAI/AAAAAAAA814/iIZEhm56LF0/s00/San-Petersburgo-Rusia_HDR-1920x1080.jpg"
+            "nameCity": "Rusia",
+            "urlCity":"http://3.bp.blogspot.com/-dwKymwDyErU/U2wCaMnWSAI/AAAAAAAA814/iIZEhm56LF0/s00/San-Petersburgo-Rusia_HDR-1920x1080.jpg"
         }
     ],
     [
         {
-            "nameImg": "Italy",
-            "img": "https://resizer.codigounico.com/resizer/resizer.php?imagen=https://www.codigounico.com/wp-content/uploads/sites/2/2018/12/top-30-de-los-mejores-destinos-turisticos-de-2018-13.jpg&nuevoancho=750&crop=0"
+            "nameCity": "Italy",
+            "urlCity": "https://resizer.codigounico.com/resizer/resizer.php?imagen=https://www.codigounico.com/wp-content/uploads/sites/2/2018/12/top-30-de-los-mejores-destinos-turisticos-de-2018-13.jpg&nuevoancho=750&crop=0"
         },
         {
-            "nameImg": "Perú",
-            "img": "https://i.ytimg.com/vi/YEgSSw33hek/maxresdefault.jpg"
+            "nameCity": "Perú",
+            "urlCity": "https://i.ytimg.com/vi/YEgSSw33hek/maxresdefault.jpg"
         },
         {
-            "nameImg": "Brasil",
-            "img": "http://www.roundalia.com/wp-content/uploads/2015/01/rio-de-janeiro-min.jpg"
+            "nameCity": "Brasil",
+            "urlCity": "http://www.roundalia.com/wp-content/uploads/2015/01/rio-de-janeiro-min.jpg"
         },
         {
-            "nameImg": "Japon",
-            "img": "http://www.roundalia.com/wp-content/uploads/2015/01/kioto-min.jpg"
+            "nameCity": "Japon",
+            "urlCity": "http://www.roundalia.com/wp-content/uploads/2015/01/kioto-min.jpg"
         }
     ]
 ]

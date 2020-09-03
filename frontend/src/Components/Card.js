@@ -4,7 +4,6 @@ import Card from "@material-ui/core/Card";
 import CardActionArea from "@material-ui/core/CardActionArea";
 import CardContent from "@material-ui/core/CardContent";
 import CardMedia from "@material-ui/core/CardMedia";
-import Typography from "@material-ui/core/Typography";
 
 const useStyles = makeStyles({
     root: {
@@ -21,19 +20,12 @@ export default function ImgCard(prop) {
     	  	  	<CardMedia
     	  	  	  	component="img"
     	  	  	  	alt="Contemplative Reptile"
-    	  	  	  	height="300vw"
-    	  	  	  	image= {prop.dato.img}
+                    height='150em'
+    	  	  	  	image= {prop.dato.urlCity}
 					title="Contemplative Reptile"
     	  	  	/>
-    	  	  	<CardContent>
-    	  	    	<Typography
-    	  	      		gutterBottom
-    	  	      		variant="p"
-    	  	      		component="p"
-    	  	      		style={{ textAlign: "center" , fontSize:'2vh'}}
-    	  	    	>
-    	  	      		{prop.dato.nameImg}
-    	  	    	</Typography>
+    	  	  	<CardContent className='fondoCity' style={{padding:'0em'}}>
+                    {prop.dato.nameCity}
     	  	  	</CardContent>
     	  	</CardActionArea>
     	</Card>

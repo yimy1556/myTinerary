@@ -10,7 +10,7 @@ import Button from '@material-ui/core/Button';
 import MenuItem from '@material-ui/core/MenuItem';
 
 const StyledMenu = withStyles({
-})((props) => (
+})(props => (
     <Menu
         elevation={0}
         getContentAnchorEl={null}
@@ -26,7 +26,7 @@ const StyledMenu = withStyles({
     />
 ));
 
-const useStyles = makeStyles((theme) => ({
+const useStyles = makeStyles(theme => ({
     root: {
         flexGrow: 1,
     },
@@ -36,7 +36,7 @@ const useStyles = makeStyles((theme) => ({
     title: {
         flexGrow: 1,
     },
-  }));
+}));
 
 
 export default function MenuAppBar() {
